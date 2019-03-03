@@ -14,7 +14,7 @@ if ($decision eq "y")
     print "How many files should be generated? "; $num_to_gen = <STDIN>;
     chomp $num_to_gen;
     my $string_gen = String::Random->new;
-    for (my $i = 0; i < 3; $i++)
+    for (my $i = 0; $i < $num_to_gen; $i++)
     {
         $file = ($string_gen->randpattern("ccc")).'.txt';
         open(FH, '>'.$file) or die "error";
