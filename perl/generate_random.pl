@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+#A basic random file generation program that takes user input
+#for how many files to create.
+#Copyright 2019, Juan Caraballo, All rights reserved.
+
 #use strict; use warnings;
 use String::Random;
 
